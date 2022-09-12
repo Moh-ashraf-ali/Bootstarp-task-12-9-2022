@@ -1,0 +1,142 @@
+.navbar{
+background-image :linear-gradient(to left , black , white , black);
+}
+.navbar .collapse ul li{
+    margin: 0px 10px;
+}
+.navbar .collapse ul li a{
+    font-size: 15px;
+    padding: 10px 15px !important;
+}
+.navbar .collapse ul li :hover{
+background-color: white;
+border-radius: 20px;
+color: black !important;
+}
+/* end nav bar */
+#carouselExampleControls{
+    margin-top: 55px;
+}
+/* end  carousel*/
+.about{
+    width: 100%;
+    background-image: url(../Image/p10.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+    overflow: auto;
+    color: white;
+
+}
+.about .aboutus {
+margin: auto;
+border-bottom: 2px solid white;
+text-align: center;
+margin-top: 30px;
+}
+.about .aboutus h1{
+    border-left: 2px solid white;
+border-right: 2px solid white;
+border-radius: 15px;
+}
+.about .row{
+    margin-top: 50px;
+}
+.about .row .photo img{
+    width: 100%;
+
+}
+.about .row .lorem{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.about .row .lorem p{
+    text-shadow: 5px 5px 5px white;
+    font-weight: 600;
+
+}
+/* end carasoul */
+.product{
+    width: 100%;
+    background-image: url(../Image/p7.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+    overflow: auto;
+    color: white;
+    padding: 50px 0px;
+
+}
+.product .OurProduct {
+margin: auto;
+border-bottom: 2px solid white;
+text-align: center;
+margin-top: 30px;
+}
+.product .OurProduct h1{
+    border-left: 2px solid white;
+border-right: 2px solid white;
+border-radius: 15px;
+}
+.product .row{
+    margin-top: 50px;
+}
+#carouselExampleControls{
+    margin-top: 0;
+}
+.card-body{
+    background-color: #444444;
+}
+.card{
+    margin: 20px 30px;
+}
+/* end product section */
+.profile{
+    width: 100%;
+    background-image: url(../Image/p9.webp);
+    background-size:cover;
+    background-attachment: fixed;
+    overflow: auto;
+    color: white;
+    padding: 50px 0px;
+
+}
+.profile .OurProfile {
+margin: auto;
+border-bottom: 2px solid white;
+text-align: center;
+margin-top: 30px;
+}
+.profile .OurProfile h1{
+    border-left: 2px solid white;
+border-right: 2px solid white;
+border-radius: 15px;
+}
+.profile .row .myprofile>img {
+    border: 2px solid darkred;
+    border-radius: 15px;
+
+}
+.OurMission>p{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 60px;
+    text-align: center;
+
+}
+.OurMission .row{
+    margin-top: 65px;
+}
+.OurMission .row .mission{
+    text-align: center;
+
+}
+ .row .mission>i{
+    font-size: 30px;
+    transition: all 1s;
+}
+.mission:hover i{
+    transform:   translateY(-40px)   rotate(720deg) ;
+    color: red;
+
+}
